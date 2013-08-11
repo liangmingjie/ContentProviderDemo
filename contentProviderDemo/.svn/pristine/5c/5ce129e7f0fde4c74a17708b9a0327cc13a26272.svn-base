@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="15dip" >
+
+    <EditText
+        android:id="@+id/et_condition"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:text="1"
+         >
+
+        <requestFocus />
+    </EditText>
+
+    <Button
+        android:id="@+id/db_button1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:clickable="true"
+        android:onClick="handleEvent"
+        android:text="add " />
+
+    <Button
+        android:id="@+id/db_button2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:clickable="true"
+        android:onClick="handleEvent"
+        android:text="delete" />
+
+    <Button
+        android:id="@+id/db_button3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:clickable="true"
+        android:onClick="handleEvent"
+        android:text="update" />
+
+    <Button
+        android:id="@+id/db_button4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:clickable="true"
+        android:onClick="handleEvent"
+        android:text="query" />
+
+</LinearLayout>
